@@ -49,6 +49,6 @@ for page_num in range(5):
             except:
                 pass
             file_object.writerow([title, author, year, publisher, grade])
-            time.sleep(5)
+            time.sleep(random.randint(15,20))
 
 
