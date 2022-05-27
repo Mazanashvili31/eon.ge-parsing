@@ -50,5 +50,6 @@ for page_num in range(5):
                 pass
             file_object.writerow([title, author, year, publisher, grade])
             time.sleep(random.randint(15,20))
-
+            
+file.close()
 
